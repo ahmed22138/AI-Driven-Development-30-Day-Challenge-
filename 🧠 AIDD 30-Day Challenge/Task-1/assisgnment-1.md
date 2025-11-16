@@ -50,4 +50,7 @@ AI will not replace developers; instead, it will make them super developers.
 * c) Avoiding AI tools
 * d) Manual workflows
 
+Name:Ahmed
+Roll No: 00475049
+Days/Time: Friday class 6 to 9
 
