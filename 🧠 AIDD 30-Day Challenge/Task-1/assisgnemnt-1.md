@@ -3,12 +3,13 @@
 ## Reflection Answers
 
 ### Q1: What does AI-Driven Development mean to you?
-Mere liye AI-Driven Development ka matlab hai ke developer coding se zyada sochne, plan karne aur evaluate karne par focus karta hai. Pehle developer har line khud likhta tha, ab AI code generate karta hai aur developer usko guide aur improve karta hai.  
-AI-Driven Development ek aisi approach hai jahan human creativity + AI speed mil kar software development ko 5x–10x faster bana deti hai. Ab hum sirf coders nahi rahe, hum AI orchestrators ban gaye hain — jo AI ko direction dete hain, goals set karte hain, aur ensure karte hain ke final output sahi ho.
+For me, AI-Driven Development means that developers focus more on thinking, planning, and evaluating rather than just writing code. Earlier, developers write every line themselves, but now AI generates code, and developers guide and improve it.
+AI-Driven Development is an approach where human creativity + AI speed together make software development 5–10x faster. We are no longer just coders; we have become AI orchestrators — directing AI, setting goals, and ensuring the final output is correct.
 
 ### Q2: How do you see the future of Human–AI Collaboration in software development?
-Mujhe lagta hai future mein human–AI collaboration aik normal workflow ban jayega. Developers AI ko sirf ek tool nahi, balkay aik team member ki tarah use karenge. AI repetitive kaam karega (coding, debugging, tests), aur humans intelligent decisions lenge — architecture, design, logic, strategy.  
-AI developers ko replace nahi karega; balkay unko super developers bana dega.
+I believe that in the future, human–AI collaboration will become a normal workflow. Developers will use AI not just as a tool but as a team member. AI will handle repetitive tasks (coding, debugging, testing), while humans will make intelligent decisions — about architecture, design, logic, and strategy.
+AI will not replace developers; instead, it will make them super developers.
+
 
 ---
 
