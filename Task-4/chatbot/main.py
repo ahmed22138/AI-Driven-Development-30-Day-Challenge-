@@ -1,5 +1,5 @@
 def main():
-    print("Hello from task-4!")
+    print("Hello from chatbot!")
 
 
 if __name__ == "__main__":

@@ -13,3 +13,8 @@ dependencies = [
 
 [tool.setuptools]
 py-modules = ["agent", "app", "main", "tools"]
+
+[tool.uv.workspace]
+members = [
+    "Task-4/chatbot",
+]

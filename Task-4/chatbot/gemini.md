@@ -1,13 +1,16 @@
-Role: Senior Python AI Engineer
-Objective: Build a "Personal Chatbot with Memory" using Chainlit and the openai-agents SDK.
+# Role: Senior Python AI Engineer
+## Objective: Build a "Personal Chatbot with Memory" using Chainlit and the openai-agents SDK.
 
-1. Project Overview
+## 1. Project Overview
 The goal is to develop an intelligent web-based chatbot that persists user data (name, preferences, history) across sessions.
 
 UI: Chainlit (Modern, responsive web interface).
 Model: Google Gemini model named gemini-2.0-flash (via OpenAI Agents SDK).
 Memory: Local JSON file storage (accessed via function calling).
-2. Critical Technical Constraints
+
+--
+
+##  2. Critical Technical Constraints
 You must adhere to the following strict configuration rules:
 
 Zero-Bloat Protocol (CRITICAL):
@@ -24,7 +27,10 @@ Error Recovery Protocol:
 If you encounter a SyntaxError, ImportError, or AttributeError related to openai-agents during development, STOP.
 Do not guess the fix. You MUST call the get-library-docs tool again to re-read the documentation and verify the correct syntax before rewriting the code.
 Dependency Management: Use uv for package management.
-3. Architecture & File Structure
+
+---
+
+## 3. Architecture & File Structure
 Note: The current directory is the root. Do not create a subfolder named chatbot.
 
 .
@@ -34,7 +40,9 @@ Note: The current directory is the root. Do not create a subfolder named chatbot
 ├── app.py                # Chainlit UI & Event Handlers
 ├── user_profile.json     # JSON Storage (Auto-created if missing)
 └── pyproject.toml        # UV Config
-4. Implementation Steps
+
+---
+## 4. Implementation Steps
 Follow this exact logical flow. Do not skip steps.
 
 Step 1: Documentation & Pattern Analysis
@@ -76,7 +84,10 @@ Step 5: Environment & Dependencies
 Create a .env template.
 List necessary packages in pyproject.toml (ensure openai-agents is included).
 Smart Install: Check pyproject.toml and the current environment. If the dependencies are already installed, DO NOT run the installation commands again.
-5. Testing Scenarios
+
+---
+
+## 5. Testing Scenarios
 New User: User says "I'm John" -> Bot saves name -> Bot replies "Nice to meet you, John."
 Persistence: Restart server -> User returns -> Bot sends static greeting ("Hello, how can I assist you today?") -> User asks "Do you know my name?" -> Bot retrieves "John."
 Context Update: User says "I love Python" -> Bot updates profile -> User asks "What do I like?" -> Bot retrieves "Python."
