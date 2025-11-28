@@ -37,7 +37,7 @@ specifyplus --version
 ### Version:
 ![GEMINI CLI MODEL](specskits.png)
 ---
-### Speckit-plus with Claude CLI:
+### Speckit-plus with Claude Code:
 
 ![GEMINI CLI MODEL](claude.png)
 
