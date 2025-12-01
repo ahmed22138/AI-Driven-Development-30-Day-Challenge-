@@ -88,7 +88,7 @@ calculator-app/
 this step for all task Implement...
 
 ###  1. Image ScreenShort:
-![Alt Text](First.png)
+![Alt Text](first.png)
 
 ---
 
